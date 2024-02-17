@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DragonAscension" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.DragonAscension" parent="Base.Theme.DragonAscension">
+        <!-- 隱藏標題列 -->
+        <item name="windowNoTitle">true</item>
+        <!-- 設定全螢幕，從而隱藏狀態欄 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 或者設定狀態欄顏色為透明 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- API level 21（Lollipop）及以上時，也可以設定狀態欄為透明並使用邊界到邊界的佈局 -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>
